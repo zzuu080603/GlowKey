@@ -6,6 +6,8 @@
 [![Platform: Windows 10/11](https://img.shields.io/badge/Platform-Windows%2010%2F11-blue)]()
 [![Dependencies: None](https://img.shields.io/badge/Dependencies-None-success)]()
 
+**English** | [简体中文](README.zh-CN.md)
+
 ![OSD preview](docs/osd-screenshot.png)
 
 *The on-screen brightness indicator shown when you press a hotkey.*
@@ -78,16 +80,9 @@ Output: `dist\GlowKey.exe`. Source is plain C# 5 / WinForms (`src/*.cs`, 9 files
 - [ ] Localization (UI is English/Chinese mixed today)
 - [ ] Optional migration to .NET 8 single-file build
 
-## 简体中文说明
+## 中文文档
 
-**GlowKey：全局快捷键 + 托盘滑块调节屏幕亮度，不用再进系统设置。**
-
-- 从 [Release](../../releases) 下载 `GlowKey.exe`（约 30 KB），双击即用：无需安装、无需管理员、无任何依赖，完全本地运行。
-- 默认 `Alt+↑` 调高 / `Alt+↓` 调低；可在托盘右键 → 设置里改成任意组合（如 `Ctrl+Alt+G` / `Ctrl+Alt+C`）。
-- 右键托盘图标：菜单内嵌滑块；左键托盘图标：弹出竖直滑条浮窗；调节时屏幕底部显示百分比提示。
-- 笔记本内置屏（WMI）和外接显示器（DDC/CI）都能调，启动时自动探测，同时应用到所有显示器。
-- 托盘图标默认在“隐藏图标”区（点任务栏 `^` 展开，可拖出固定）；外接屏不可调时请检查显示器 OSD 菜单里的 DDC/CI 是否开启。
-- 编译：双击 `build.cmd`（用 Windows 自带编译器，无需安装任何 SDK）。
+完整中文说明请看 [README.zh-CN.md](README.zh-CN.md)。
 
 ## License
 
